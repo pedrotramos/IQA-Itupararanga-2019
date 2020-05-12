@@ -1,0 +1,12 @@
+Sistema de Informações Hidrológicas
+Versão Web 3.0
+© 2018 Agência Nacional de Águas (ANA)
+
+NivelConsistencia: 1 = Bruto, 2 = Consistido
+PosHorizColeta: 1 = Margem direita, 2 = Centro, 3 = Margem esquerda, 4 = Composta, 5 = Extra, 6 = Indefinida, 7 = Superfície, 8 = Integrada, 9 = 40%, 10 = 50%
+PosVertColeta: 1 = Indefinida, 2 = Superficial, 3 = Integrada, 4 = Fundo, 5 = 20%, 6 = 40%, 7 = 50%, 8 = 60%, 9 = 70%, 10 = 80%
+Choveu: 0 = Não, 1 = Sim
+Status: 0 = Branco, 1 = Real, 2 = Menor que (<), 3 = Valor aceito (VA), 4 = Não detectado (ND)
+
+Restrições da consulta:
+Código da Estação:62510060

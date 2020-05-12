@@ -905,7 +905,10 @@ select:-webkit-autofill:focus {
   transition: background-color 5000s ease-in-out 0s;
 }
 
-
+.map {
+  width: 100%;
+  height: 450px;
+}
 
 /* ===================================================================
  * # buttons
@@ -2995,7 +2998,7 @@ html.no-csstransitions .home-content__main {
   list-style: none;
   width: 100%;
   padding: 0;
-  margin: 4.5rem 0 0 0;
+  margin: 2rem 0 0 0;
   text-align: center;
   position: absolute;
   top: 100%;
@@ -3039,8 +3042,9 @@ html.no-csstransitions .home-content__main {
 
 .testimonials__slide {
   position: relative;
-  padding-left: 12rem;
+  padding-left: 3rem;
   padding-right: 3rem;
+  width: 100%;
 }
 
 .testimonials__icon {
@@ -3185,7 +3189,7 @@ html.no-csstransitions .home-content__main {
 .s-clients a:hover,
 .s-clients a:focus,
 .s-clients a:active {
-  color: #FFFFFF;
+  color: #62AFCD;
 }
 
 .clients-list {
@@ -3325,6 +3329,14 @@ html.no-csstransitions .home-content__main {
   text-align: center;
 }
 
+.hover-blue:hover .item-stats__count{
+    color: #0051ff !important;
+}
+
+.hover-blue:hover h5{
+  color: black !important;
+}
+
 .item-stats {
   margin: 5.4rem 0;
   padding: 0 2rem;
@@ -3356,9 +3368,6 @@ html.no-csstransitions .home-content__main {
  * stats
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1200px) {
-  .stats-block {
-    max-width: 900px;
-  }
 
   .item-stats {
     margin: 3rem 0;
@@ -3807,3 +3816,4 @@ footer a:visited {
 }
 
 /*# sourceMappingURL=main.css.map */
+
