@@ -1441,16 +1441,18 @@ input::-moz-focus-inner {
   font-weight: 700;
 }
 
-.subhead::after {
-  content: "";
-  display: block;
-  background-color: #0051ff;
-  height: 1px;
-  margin-top: -1px;
-  width: 4.5rem;
-  position: absolute;
-  top: 50%;
-  left: 4rem;
+@media only screen and (min-width:600px) {
+  .subhead::after {
+    content: "";
+    display: block;
+    background-color: #0051ff;
+    height: 1px;
+    margin-top: -1px;
+    width: 4.5rem;
+    position: absolute;
+    top: 50%;
+    left: 4rem;
+  }
 }
 
 .section-header {
@@ -1593,7 +1595,7 @@ input::-moz-focus-inner {
   }
 
   .subhead::before {
-    padding-right: 45px;
+    padding-right: 10px;
   }
 
   .subhead::after {
@@ -3742,7 +3744,7 @@ footer a:visited {
 }
 
 .cl-go-top::after {
-  content: "back to top";
+  content: "voltar ao topo";
   display: inline-block;
   width: 120px;
   font-size: 1.2rem;
