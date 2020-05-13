@@ -3819,3 +3819,8 @@ footer a:visited {
 
 /*# sourceMappingURL=main.css.map */
 
+canvas{
+
+  min-height:400px !important;
+
+}
