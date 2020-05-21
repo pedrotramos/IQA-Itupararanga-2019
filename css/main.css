@@ -2916,6 +2916,12 @@ html.no-csstransitions .home-content__main {
  * responsive:
  * works
  * ------------------------------------------------------------------- */
+ .s-works a:hover,
+ .s-works a:focus,
+ .s-works a:active {
+   color: #62AFCD;
+ }
+
 @media only screen and (max-width:1400px) {
   .item-folio__title {
     font-size: 1.7rem;
