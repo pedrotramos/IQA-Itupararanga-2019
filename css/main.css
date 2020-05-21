@@ -3440,7 +3440,7 @@ html.no-csstransitions .home-content__main {
 .s-contact a:hover,
 .s-contact a:focus,
 .s-contact a:active {
-  color: #FFFFFF;
+  color: #62AFCD;
 }
 
 .contact-infos {
@@ -3747,7 +3747,7 @@ footer a:visited {
   content: "voltar ao topo";
   display: inline-block;
   width: 120px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 30px;
   text-transform: uppercase;
   letter-spacing: .2rem;
